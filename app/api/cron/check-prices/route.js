@@ -109,3 +109,5 @@ export async function GET() {
     message: "Price check endpoint is working. Use POST to trigger.",
   });
 }
+
+//curl.exe -X POST http://localhost:3000/api/cron/check-prices -H "Authorization: Bearer your_cron_secret"
