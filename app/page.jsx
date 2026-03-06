@@ -41,10 +41,10 @@ export default async function Home() {
         <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-3">
             <Image
-              src="/deal-drop-logo.png"
+              src="/price-logo.png"
               alt="Deal Drop Logo"
-              width={600}
-              height={200}
+              width={800}
+              height={600}
               className="h-10 w-auto"
             />
           </div>
@@ -124,6 +124,29 @@ export default async function Home() {
           </div>
         </section>
       )}
+
+      {/* Footer */}
+      <footer className="bg-gray-100 text-gray-600 py-6 mt-12">
+        <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+          <p className="text-sm">
+            &copy; {new Date().getFullYear()} Price Pulse. All rights reserved.
+          </p>
+          <div className="space-x-4 mt-2 md:mt-0">
+            <a href="/terms" className="text-sm hover:underline">
+              Terms
+            </a>
+            <a href="/privacy" className="text-sm hover:underline">
+              Privacy
+            </a>
+            <a
+              href="https://github.com/SamriddhoBiswas/PricePulse"
+              className="text-sm hover:underline"
+            >
+              GitHub
+            </a>
+          </div>
+        </div>
+      </footer>
     </main>
   );
 }
