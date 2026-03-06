@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { deleteProduct } from "@/app/actions";
-
+import PriceChart from "./PriceChart";
 import {
   Card,
   CardContent,
@@ -105,7 +105,7 @@ export default function ProductCard({ product }) {
 
       {showChart && (
         <CardFooter className="pt-0">
-
+          <PriceChart productId={product.id} />
         </CardFooter>
       )}
     </Card>
