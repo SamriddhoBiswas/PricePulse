@@ -4,7 +4,19 @@ import AddProductForm from "@/components/AddProductForm";
 import ProductCard from "@/components/ProductCard";
 import { TrendingDown, Shield, Bell, Rabbit } from "lucide-react";
 import AuthButton from "@/components/AuthButton";
+import StoreCarousel from "@/components/StoreCarousel";
 import Image from "next/image";
+
+const STORES = [
+  { src: "/amazon-1.png", alt: "Amazon" },
+  { src: "/flipkart-2.png", alt: "Flipkart" },
+  { src: "/zara.png", alt: "Zara" },
+  { src: "/walmart-1.png", alt: "Walmart" },
+  { src: "/souled.png", alt: "Souled" },
+  { src: "/meesho.png", alt: "Meesho" },
+  { src: "/bestbuy.png", alt: "BestBuy" },
+  { src: "/myntra.png", alt: "Myntra" },
+];
 
 export default async function Home() {
   const supabase = await createClient();
@@ -88,8 +100,22 @@ export default async function Home() {
             </div>
           )}
         </div>
+
+        {/* Supported stores carousel */}
+          <div className="mt-16">
+            <h4 className="text-xl font-bold text-gray-900 mb-12 text-center">
+              Supported Stores
+            </h4>
+            <StoreCarousel
+              stores={STORES}
+              duration={20}
+              className="max-w-5xl mx-auto"
+            />
+          </div>
+
       </section>
 
+      
       {/* Products Grid */}
       {user && products.length > 0 && (
         <section className="max-w-7xl mx-auto px-4 pb-20">
