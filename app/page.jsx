@@ -57,7 +57,7 @@ export default async function Home() {
       <section className="py-20 px-4">
         <div className="max-w-7xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 bg-orange-100 text-orange-700 px-6 py-2 rounded-full text-sm font-medium mb-6">
-            Made with ❤️ by Samriddho
+            🔔 Real-Time Price Tracking
           </div>
 
           <h2 className="text-5xl font-bold text-gray-900 mb-4 tracking-tight">
@@ -76,7 +76,7 @@ export default async function Home() {
               {FEATURES.map(({ icon: Icon, title, description }) => (
                 <div
                   key={title}
-                  className="bg-white p-6 rounded-xl border border-gray-200"
+                  className="bg-white p-6 rounded-xl border border-gray-200 hover:shadow-xl transform hover:scale-105 transition-all duration-300"
                 >
                   <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-4 mx-auto">
                     <Icon className="w-6 h-6 text-orange-500" />
