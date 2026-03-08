@@ -124,9 +124,27 @@
   * {
     @apply border-border outline-ring/50;
   }
+  /* apply the image at the root so it’s visible even if body or sections
+     receive their own background colors */
+  html {
+    /* reset any default spacing just in case */
+    margin: 0;
+    padding: 0;
+    background-image: url('/background.png');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
   body {
     @apply bg-background text-foreground;
+    margin: 0;
+    padding: 0;
+    /* background image also on body for browsers that paint body under html */
+    background-image: inherit;
     /* ensure the custom font is applied site-wide */
     font-family: var(--font-sans);
   }
 }
+
