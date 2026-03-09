@@ -1,8 +1,5 @@
-
-
-![image](public/price-logo.png)
-<h1 align="center">💲Smart Product Price Tracker💲</h1>
-<h3 align="center">Track product prices across e-commerce sites and get alerts on price drops. Built with Next.js, Firecrawl, and Supabase.</h3>
+<h1 align="center">💲PRICE PULSE💲</h1>
+Smart Product Price Tracker - Tracks product prices across e-commerce sites and get alerts on price drops. Built with Next.js, Firecrawl, and Supabase.
 ---
 
 
