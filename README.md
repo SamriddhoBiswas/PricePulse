@@ -28,6 +28,10 @@
 - **Recharts** - Interactive charts
 - **Tailwind CSS** - Styling
 
+---
+
+![image](public/landing.jpeg)
+
 ## 📋 Prerequisites
 
 Before you begin, ensure you have:
