@@ -161,10 +161,10 @@ export default async function Home() {
             &copy; {new Date().getFullYear()} Price Pulse. All rights reserved.
           </p>
           <div className="space-x-4 mt-2 md:mt-0">
-            <a href="/terms" className="text-sm hover:underline">
+            <a href="#" className="text-sm hover:underline">
               Terms
             </a>
-            <a href="/privacy" className="text-sm hover:underline">
+            <a href="#" className="text-sm hover:underline">
               Privacy
             </a>
             <a

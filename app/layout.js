@@ -1,8 +1,11 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Price Tracker - Never Miss a Price Drop",
+  title: "Price Pulse - Alerts For Price Drop",
   description: "Track product prices across e-commerce sites and get alerts on price drops",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -14,6 +17,7 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
           href="https://fonts.cdnfonts.com/css/bricolage-grotesque"
         />
+        <link rel="icon" href="/favicon.ico" />
       </head>
       <body className="antialiased">
         {children}
