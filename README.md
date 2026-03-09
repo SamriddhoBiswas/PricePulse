@@ -1,6 +1,10 @@
-# Price Pulse - Smart Product Price Tracker
 
-Track product prices across e-commerce sites and get alerts on price drops. Built with Next.js, Firecrawl, and Supabase.
+
+![image](public/price-logo.png)
+<h1 align="center">💲Smart Product Price Tracker💲</h1>
+<h3 align="center">Track product prices across e-commerce sites and get alerts on price drops. Built with Next.js, Firecrawl, and Supabase.</h3>
+---
+
 
 ## 🎯 Features
 
