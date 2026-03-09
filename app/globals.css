@@ -130,7 +130,7 @@
     /* reset any default spacing just in case */
     margin: 0;
     padding: 0;
-    background-image: url('/background.png');
+    background-image: url('/bg-main.svg');
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;

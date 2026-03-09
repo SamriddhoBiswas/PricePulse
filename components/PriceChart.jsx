@@ -70,9 +70,9 @@ export default function PriceChart({ productId }) {
           <Line
             type="monotone"
             dataKey="price"
-            stroke="#FA5D19"
+            stroke="#8B5CF6" // purple-600
             strokeWidth={2}
-            dot={{ fill: "#FA5D19", r: 4 }}
+            dot={{ fill: "#8B5CF6", r: 4 }}
             activeDot={{ r: 6 }}
           />
         </LineChart>
