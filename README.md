@@ -1,4 +1,4 @@
-<h1 align="center">💲PRICE PULSE💲</h1>
+<h1 align="center">PRICE PULSE</h1>
 
  ## Smart Product Price Tracker - Tracks product prices across e-commerce sites and get alerts on price drops. Built with Next.js, Firecrawl, and Supabase.
 
